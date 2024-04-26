@@ -30,7 +30,6 @@ class HomeView: UIView {
 	
 	private func configConstraints() {
 		NSLayoutConstraint.activate([
-			
 			textField.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20),
 			textField.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 15),
 			textField.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -15),
